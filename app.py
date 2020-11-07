@@ -8,7 +8,6 @@ app = Flask(__name__)
 api = Api(app, version="1.0", title="API title", description="A simple API example")
 ns_todos = api.namespace('todos', description='Todos operations')
 
-counter = 0
 todos = []
 
 todo_model = api.model('todo', {
