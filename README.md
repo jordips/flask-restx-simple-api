@@ -1,14 +1,10 @@
 # flask-restx-simple-api
 
-A minimal Flask-restx API example. Dockerfile included to run in K8S/Docker environments.
+A minimal Flask-restx API example. Dockerfile included to run in K8S/Docker. Example without database involved.
 
-## Requirements
+You can access to Swagger 
 
-To execute code you need:
-- python3
-- pip3
-
-## Run application in docker
+## Run simple API in docker
 
 To build and run docker execute:
 
@@ -18,8 +14,17 @@ cd flask-restx-simple-api
 docker build -t flask-restx-simple-api .
 docker run -p 80:80
 ```
+Once Docker is running you can access Swagger via http://localhost
 
 ## Development environment
+
+### Requirements
+
+To execute the application you need:
+- python3
+- pip3
+
+### Run application
 
 You should create and activate a python virtual environment before run the application.
 
@@ -30,3 +35,4 @@ cd flask-restx-simple-api
 pip3 install -r requirements.txt
 python3 run.py
 ```
+Now you can access Swagger via http://localhost:5000
