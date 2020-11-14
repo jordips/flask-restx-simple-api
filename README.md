@@ -10,7 +10,7 @@ To build and run docker execute:
 git clone https://github.com/jordips/flask-restx-simple-api.git
 cd flask-restx-simple-api
 docker build -t flask-restx-simple-api .
-docker run -p 80:80
+docker run -p 80:80 flask-restx-simple-api
 ```
 Once Docker is running you can access Swagger via http://localhost
 
