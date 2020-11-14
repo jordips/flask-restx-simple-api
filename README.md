@@ -1,8 +1,6 @@
 # flask-restx-simple-api
 
-A minimal Flask-restx API example. Dockerfile included to run in K8S/Docker. Example without database involved.
-
-You can access to Swagger 
+A minimal Flask-restx API example using JSON. Dockerfile included to run in K8S/Docker.
 
 ## Run simple API in docker
 
